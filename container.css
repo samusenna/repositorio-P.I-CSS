@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+.header{
+    border-bottom:  2px solid #32b9cd;
+}
+
+.container{
+color: #32b9cd;
+display: flex;
+justify-content: space-between;
+}
+
+.container ul {
+  color: #e3b062;
+  display: flex;
+  width: 600px;
+  justify-content: space-evenly;
+list-style: none;}
+
+.header .container{
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul a {
+    color: #e3b062;
+text-decoration: none;
+}
+
+.agora {
+  font-weight: 600;
+}
+
+/*BANNERE*/
+
+.banner {
+    height: 500px;
+    background-image: url("aquatech.png");
+    background-size: cover;
+}
+
+.banner .container {
+height: 500px;
+align-items: center;
+}
+
+.banner p {
+    color: #fff;
+    margin: 0%;
+    padding: 0%;
+    font-size: 36px;
+    width: 280px;
+    margin-left: 350px;
+}
+
+.banner span{
+font-weight: 800;
+}
+
+/*login*/
+
+.banner .card {
+    background-color: beige;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.btn {
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #e75459;
+    cursor: pointer;
+}
+
+input {
+    height: 30px;
+    border: 1px solid #e75459;
+    border-radius: 4px;
+}
+
+.cadastro{
+    background-image: url("aquatech.png");
+    
+
+
+}
+.cadastro .campus {
+    background-color: beige;
+    height: 550px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 40px;
+    padding: 10px;
+    border: 1;
+}
+
+.campus {
+margin-top: 10px;
+
+}
+
+.cad {
+    color: #df6367;
+    font-family: monospace;
+    margin-top: 0px;
+    border: 20;
+    font-weight: 900;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    padding: 9px 10px;
+    background-color: #e75459;
+    cursor: pointer;
+}
+
+.cad:hover {
+    background-color: rgb(92, 163, 92);
+    color: #df6367;
+}
+.cadastro .b {
+background-color: #f0e9dd;
+color: rgb(44, 211, 211);
+}
